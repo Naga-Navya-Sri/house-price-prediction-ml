@@ -19,6 +19,13 @@ This project focuses on predicting house prices using regression techniques in M
 6. Model Evaluation
 7. Conclusion
 
+## 📊 Model Performance
+
+- **Mean Squared Error (MSE):** 161,173,486,211  
+- **R² Score:** 0.9637  
+
+The model explains approximately 96% of the variance in house prices, indicating a strong linear relationship between size, number of bedrooms, and price.
+
 ## 🎯 Goal
 To understand regression models deeply and apply them to real-world datasets.
 
