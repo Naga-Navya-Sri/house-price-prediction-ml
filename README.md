@@ -21,10 +21,21 @@ This project focuses on predicting house prices using regression techniques in M
 
 ## 📊 Model Performance
 
-- **Mean Squared Error (MSE):** 161,173,486,211  
-- **R² Score:** 0.9637  
+**Linear Regression**  
+- R² Score: 0.9638  
+- Mean Squared Error: 161,173,486,211  
 
-The model explains approximately 96% of the variance in house prices, indicating a strong linear relationship between size, number of bedrooms, and price.
+**Ridge Regression**  
+- R² Score: 0.9630  
+- Mean Squared Error: 164,432,730,242  
+
+**Lasso Regression**  
+- R² Score: 0.9638  
+- Mean Squared Error: 161,173,792,847  
+
+### 🔎 Analysis
+All three models performed similarly with an R² score of approximately 0.96.  
+Since the dataset is synthetic and strongly linear, regularization did not significantly change performance.
 
 ## 🎯 Goal
 To understand regression models deeply and apply them to real-world datasets.
